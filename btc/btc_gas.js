@@ -22,7 +22,7 @@ function btc_gas(end_tx) {
         console.log(e.message)
     }
 
-    console.log("金额(U):", Math.round(value), "总张数:", i);
+    console.log("金额(U):", Math.round(value), "tx数量:", i);
 }
 
 // btc_gas("最开始的tx")
